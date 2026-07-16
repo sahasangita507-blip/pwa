@@ -1,81 +1,13 @@
 {
-  "name": "MoneyMate – Daily Expense Tracker",
-  "short_name": "MoneyMate",
-  "description": "Track your daily expenses, income, and budgets with MoneyMate.",
-  "start_url": "/pwa/",
-  "scope": "/pwa/",
+  "background_color": "rgb(39, 77, 183)",
+  "description": "Track your daily expenses, income, and budgets with MoneyMate — a beautiful personal finance tracker.",
+  "dir": "ltr",
   "display": "standalone",
-  "orientation": "portrait-primary",
-  "background_color": "#0d0d1a",
-  "theme_color": "#7c3aed",
-  "lang": "en",
-  "categories": ["finance", "productivity"],
-  "icons": [
-    {
-      "src": "icons/icon-72.png",
-      "sizes": "72x72",
-      "type": "image/png",
-      "purpose": "maskable any"
-    },
-    {
-      "src": "icons/icon-96.png",
-      "sizes": "96x96",
-      "type": "image/png",
-      "purpose": "maskable any"
-    },
-    {
-      "src": "icons/icon-128.png",
-      "sizes": "128x128",
-      "type": "image/png",
-      "purpose": "maskable any"
-    },
-    {
-      "src": "icons/icon-144.png",
-      "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "maskable any"
-    },
-    {
-      "src": "icons/icon-152.png",
-      "sizes": "152x152",
-      "type": "image/png",
-      "purpose": "maskable any"
-    },
-    {
-      "src": "icons/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable any"
-    },
-    {
-      "src": "icons/icon-384.png",
-      "sizes": "384x384",
-      "type": "image/png",
-      "purpose": "maskable any"
-    },
-    {
-      "src": "icons/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable any"
-    }
-  ],
-  "screenshots": [
-    {
-      "src": "icons/screenshot1.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Dashboard Overview"
-    }
-  ],
-  "shortcuts": [
-    {
-      "name": "Add Expense",
-      "short_name": "Add",
-      "description": "Quickly add a new transaction",
-      "url": "/pwa/#add",
-      "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
-    }
-  ]
+  "name": "Money Mete",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Money Mete",
+  "start_url": "/",
+  "theme_color": "#1267d8",
+  "id": "MM"
 }
